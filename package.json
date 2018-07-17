@@ -1,0 +1,19 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "REACT_APP_NODE_ENV=development react-scripts start",
+    "dist": "REACT_APP_NODE_ENV=production react-scripts build",
+    "dev": "REACT_APP_NODE_ENV=development react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  }
+
+}
