@@ -1,0 +1,9 @@
+.profile_listing_section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+.profile_card_section .main_title{
+    margin-bottom: 100px;
+}

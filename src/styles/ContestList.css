@@ -1,0 +1,49 @@
+.contest_li {
+    text-align: left;
+    position: relative;
+    padding: 30px;
+    align-items: flex-start;
+}
+.contest_li:not(:last-child){
+    border-bottom: 1px solid #e5ecee;
+}
+
+.contest_listing {
+    /*margin: 0 -30px;*/
+}
+
+.contest_li .bacic_card_item {
+    margin: 0 20px 0 0;
+}
+
+.contest_li .bacic_card_img {
+    width: 200px;
+}
+
+.entriesnum {
+    position: absolute;
+    right: 35px;
+}
+.contest_li:hover {
+    background: #f4f8f9;
+}
+.contest_li.active{
+    background: #d4eef5;
+}
+.list-title {
+    color: #777777;
+    font-size: 18px;
+    font-weight: 600;
+}
+.finalistavatar {
+    position: absolute;
+    right: 35px;
+    bottom: 35px;
+}
+.finalistavatar img {
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    margin: 0 3px;
+    vertical-align: -9px;
+}

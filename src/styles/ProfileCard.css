@@ -1,0 +1,133 @@
+/*.basic profile card */
+.profile_card {
+    position: relative;
+    background: #fff;
+    min-height: 400px;
+    text-align: center;
+}
+.card-content {
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+}
+.profile_card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 0 0 4px 0;
+    -moz-border-radius: 0 0 4px 0;
+    -webkit-border-radius: 0 0 4px 0;
+    -khtml-border-radius: 0 0 4px 0;
+}
+.profile_card:after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(-45deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+    background: -webkit-linear-gradient(315deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+    background: -o-linear-gradient(315deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+    background: linear-gradient(135deg, rgba(46, 202, 127, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+}
+.profile_card .profile_avatar{
+    margin-top: -75px;
+    margin-bottom: 30px;
+}
+.profile_avatar {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 50%;
+}
+.profile_avatar img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    border-radius: 50%;
+}
+.dot.online {
+    background: #4DD864;
+}
+.dot.offline {
+    background: #c5b0b4;
+}
+.profile_card h4 {
+    font-size: 25px;
+    line-height: 30px;
+    color: #222222;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.profile_card .sub-title{
+    margin-bottom: 0;
+}
+.profile_card  .social_icon {
+    padding: 7px 0 15px;
+}
+.profile_card .social_icon a {
+    font-size: 14px;
+    color: #222222;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    margin-right:15px;
+}
+.country_flag_div {
+    position: relative;
+    width: 30px;
+    height: 20px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    left: 10px;
+    top: -1px;
+}
+.country_flag_div img{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.card_rating_section p {
+    margin-bottom: 0;
+}
+.card_rating_section b {
+    color: #c5322d;
+    font-size: 20px;
+}
+.masonry_profile_card{
+    margin-bottom: 80px;
+}
+
+/*end profile card*/

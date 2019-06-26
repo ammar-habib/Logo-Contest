@@ -1,0 +1,116 @@
+
+.portfolioFilter {
+    padding: 15px 0;
+}
+
+.portfolioFilter a {
+    margin-right: 6px;
+    color: #666;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 4px 15px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.portfolioFilter a.current {
+    background: #1e1e1e;
+    border: 1px solid #1e1e1e;
+    color: #f9f9f9;
+}
+.portfolioContainer{
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+img {
+    margin: 5px;
+    max-width:100%;
+}
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+    /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.filter-button-row{
+    margin-bottom: 30px;
+}
+
+.filter-button
+{
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.filter-button:hover
+{
+    /*font-size: 18px;*/
+    /*border: 1px solid #42B32F;*/
+    /*border-radius: 5px;*/
+    /*text-align: center;*/
+    /*color: #ffffff;*/
+    /*background-color: #42B32F;*/
+
+}
+.filter-button:active, .filter-button:focus
+{
+    background-color: #f44a40;
+    outline: none;
+    color: #ffffff;
+}
+.card.filter .bacic_card_item{
+    margin-bottom: 0;
+}
+
+
+.stats_list {
+    background: #e5ecee;
+}
+
+.stats_header {
+    padding: 20px 0;
+    font-size: 18px;
+    color: #000;
+}
+
+.stats_header .num {font-size: 20px;font-weight: 600;margin: 0 10px;}
+
+.stats_header .split {
+    margin: 0 10px;
+}
+
+.stats_cards_section {
+    background: #ffff;
+    border: 1px solid;
+    padding: 15px;
+}
+
+.stats_data {
+    padding: 15px 0;
+    color: #000;
+}

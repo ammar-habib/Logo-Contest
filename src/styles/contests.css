@@ -1,0 +1,77 @@
+.contest_tabs_area {
+    background: #e5ecee;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contest_tabs {
+    justify-content: space-between;
+    border-bottom: 0;
+}
+
+.contest-tab {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contest-tab img {
+    max-width: 100%;
+}
+
+.contest_tab_details {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: rgba(34, 34, 34, 0.8);
+    color: #fff;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+
+.contest_tabs .contest_tab_details:focus, .contest_tabs .contest_tab_details:hover {
+    background: rgba(197, 50, 45, 0.8);
+    border: 0;
+    outline: none;
+}
+
+.contest_tabs .contest_tab_details.active {
+    color: #ffffff;
+    background: rgba(197, 50, 45, 0.8);
+    border-color: transparent;
+}
+
+.contest_tab-text {
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+}
+
+.contest_tab-line {
+    margin: 10px 0;
+    background: #fff;
+    width: 70%;
+    height: 1px;
+}
+
+
+.contest_tabs_content {
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}

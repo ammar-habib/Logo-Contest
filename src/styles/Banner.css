@@ -1,0 +1,179 @@
+.banner_area {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.home_banner_area {
+    min-height: 700px;
+    background: #e8f0f2;
+}
+.inner_page_banner {
+    min-height: 450px;
+}
+.banner_inner {
+    position: relative;
+    width: 100%;
+}
+.home_banner_inner {
+    min-height: 700px;
+}
+.inner_page_banner_inner {
+    min-height: 450px;
+}
+.banner_area .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    bottom: 0;
+    z-index: -1;
+
+}
+.home_banner_area .overlay {
+    background: url('../images/banner/bg-img.jpg') repeat 0 0;
+    -webkit-animation: slide 20s linear infinite;
+    opacity: 0.3;
+}
+.inner_page_banner .overlay {
+    background: url('../images/faces.jpg') repeat 0 0;
+    opacity: 1;
+}
+.contest_banner_bg .overlay {
+    background: url('../images/bg 2.webp') no-repeat  0 0;
+    background-size:cover;
+}
+.logo_page_banner .overlay {
+    background: url('../images/bg-3.webp') no-repeat  0 0;
+    background-size:cover;
+}
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+.logo_page_banner {
+    min-height: 350px;
+    background: #e8f0f2;
+}
+.logo_page_banner_inner {
+    min-height: 350px;
+}
+/*.home_banner_area .banner_inner .banner_content {*/
+    /*color: #222222;*/
+    /*padding-top: 80px;*/
+/*}*/
+
+/*.home_banner_area .banner_inner .banner_content .col-lg-5 {*/
+    /*-ms-flex-item-align: center;*/
+    /*align-self: center;*/
+    /*vertical-align: middle;*/
+/*}*/
+
+.banner_title {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.banner_subtitle {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #777777;
+}
+
+.banner_bg_btn {
+    margin-top: 45px;
+    line-height: 50px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 30px;
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.banner-input-field .single-input{
+    border-radius: 4px;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 45px;
+}
+.banner-input-field  .input-group-icon .icon{
+    left: auto;
+    right: 3px;
+    line-height: 50px;
+}
+.banner-input-field .genric-btn{
+    line-height: 48px;
+}
+ .banner_page_link a {
+    font-size: 14px;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    margin-right: 32px;
+    position: relative;
+}
+.banner_page_link a:before {
+    content: "\e87a";
+    font-family: 'Linearicons-Free';
+    font-size: 14px;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@media (max-width:1199px){
+    .home_banner_area {
+        min-height: 700px;
+    }
+    .home_banner_inner {
+        min-height: 700px;
+    }
+
+}
+@media (max-width:991px){
+    .home_banner_area {
+        background-size: cover;
+        margin-bottom: 0;
+    }
+}
+@media (max-width:767px){
+    .home_banner_area {
+        min-height: 500px;
+    }
+    .home_banner_inner {
+        min-height: 500px;
+    }
+    .banner_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner_subtitle {
+        margin-bottom: 0;
+    }
+    .banner_bg_btn {
+        margin-top: 25px;
+    }
+}
+@media (max-width:575px) {
+    .banner_title {
+        font-size: 28px;
+    }
+    .home_banner_area {
+        min-height: 500px;
+    }
+    .home_banner_inner {
+        min-height: 500px;
+    }
+}
+
+/*!* End Home Banner Area css*/
+
+
+
