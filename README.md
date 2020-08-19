@@ -1,3 +1,3 @@
-## Experintsol React Starter Template 
+## Logo Contest React Template 
 
-### Auther Muhammad Iftikhar Experintsol
+### Auther Ammar Habib
